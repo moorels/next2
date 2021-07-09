@@ -6,9 +6,9 @@ function Links() {
     return (
         <div  className={styles.header}>
             <Link href="/">HOME</Link>
-            <Link href="/">ABOUT</Link>
-            <Link href="/">SERVICES</Link>
-            <Link href="/">CONTACT</Link>
+            <Link href="/About">ABOUT</Link>
+            <Link href="/Services">SERVICES</Link>
+            <Link href="/Contact">CONTACT</Link>
         </div>
     )
 }
